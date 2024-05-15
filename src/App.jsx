@@ -12,7 +12,6 @@ import Signup from './pages/signup'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Form from './component/form'  
 import Dashboard from './pages/dashboard';
-
 import Forgot from './pages/forgot';
 
 
@@ -26,7 +25,7 @@ function App() {
     
       <BrowserRouter>
       <Routes>
-        
+
         <Route path="/" element={<Form />} />
         <Route path="/login" element={<Form />} />
         <Route path="/products" element={<Products />} />
